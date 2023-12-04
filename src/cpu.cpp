@@ -1,6 +1,6 @@
 #include "cpu.h"
 
-CPU::CPU(sc_module_name name) : sc_module(name), sentence_("Hello, I'm a CPU.") {
+CPU::CPU(sc_module_name name) : sc_module(name), sentence_("Hello, I am CPU.") {
   SC_METHOD(SendMethod);
 }
 

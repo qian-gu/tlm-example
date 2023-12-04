@@ -32,14 +32,3 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SYSTEMC_HOME/lib-linux64:$VCML_HOME/lib
 make
 ./Build/out
 ```
-
-## Codes
-
-| syntax             | examples                    |
-| ------------------ | --------------------------- |
-| sc_module          | `Source`, `Sink`            |
-| SC_THREAD          | `WriteThread`, `ReadThread` | 
-| sc_interface       | `FIFOReadIF`, `FIFOWriteIF` |
-| sc_prim_channel    | `FIFO`                      |
-
-* modules and channels are connected up via sc_port
